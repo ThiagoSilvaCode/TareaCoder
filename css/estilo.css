@@ -1,5 +1,6 @@
 body {
-    background-color: blanchedalmond;
+   background: url(../img.jpg/sauna.jpg);
+   background-size: 100%;
     text-align: center;
 }
 
@@ -22,17 +23,22 @@ body {
      margin: 5px 5px 5px 5px;
     border: 2px dotted rgb(113, 68, 9);
     display: inline-block;
+    transition: all 2s;
  }
+
+ .tituloSecundario:hover {
+   height: 100px;
+   width: 120px;
+}
 
  .redesSociales1 {
 background-image: url(../img.jpg/ig.png);
-background-repeat: no-repeat;
 background-size: cover;
  border: 2px;
  display: flex;
  flex-flow: row wrap;
  justify-content: center;
- width: 10%;
+ width: 25%;
  margin: 0 auto;
  }
 
@@ -53,8 +59,17 @@ background-size: cover;
     margin: 0 auto;
      }
 
+     .habitaciones2 {
+      border: 1px solid black;
+     font-size: 18px;
+     display: inline-block;
+     justify-content: flex-start;
+     width: 40%;
+     margin: 0 auto;
+     }
+
      .tipoHabitaciones {
-        background-image: radial-gradient(rgb(210, 182, 141), rgb(186, 126, 42));
+        background-image: radial-gradient(rgb(210, 182, 141), rgb(202, 144, 63));
         background-size: cover;
         font-size: 24px;
         border: 2px solid black;
@@ -64,7 +79,7 @@ background-size: cover;
         width: 40%;
         margin: 0 auto;
      }
-
+     
      /*wpp*/
 
      .float{
@@ -102,6 +117,7 @@ background-size: cover;
    justify-content: center;
    width: 40%;
    margin: 0 auto;
+   color: rgb(244, 223, 191);
 }
 
 .subTitulo {
@@ -114,8 +130,8 @@ background-size: cover;
 
 .agendas {
    background-image: radial-gradient(#f9e2a3, #e3bc51);
-   border: black solid 1px;
-   display: inline-flexbox;
+   border: rgb(106, 79, 5) solid 5px;
+  display: inline-block;
 }
 
 
@@ -123,7 +139,6 @@ background-size: cover;
 
 header {
    background-image: url(../img.jpg/puertaHotel.jpg);
-   grid-area: header;
 }
 
 nav {
@@ -141,7 +156,6 @@ main {
    border: 3px;
    background-image: radial-gradient(#f9e2a3, #e3bc51);
    text-align: center;
-   grid-area: servicioHotel; 
    height: 200px;
 }
 
@@ -149,21 +163,11 @@ footer {
       background-image: linear-gradient(to top,   rgb(247, 174, 58), rgb(245, 212, 159));
     border: 1px solid black;
     margin: 0 auto;
-   grid-area: footer;
    color: black;
    height: 90px;
    justify-content: center;
 }
 
-@media(min-width:400px) {
-
-   .gridPadre {
-      display: grid;
-      grid-template-areas: 
-      "header header"
-      "main main"
-      "nav nav"
-      "footer footer";
-   }
+.piePagina {
+   background-image: linear-gradient(to top,  rgb(245, 212, 159), rgb(246, 189, 97));
 }
-
