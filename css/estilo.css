@@ -9,27 +9,17 @@ body {
     border: 2px solid black;
     padding: 10px;
     display: inline-block;
-    background-image: radial-gradient(#f9e2a3, #e3bc51);
-    transition: all 2s;
+    background-image: radial-gradient(#f9e2a3, #e3bc51);    
 }
 
-.tituloPrincipal:hover {
-   height: 100px;
-   width: 120px;
-}
 
 .tituloSecundario {
    background-image: radial-gradient(#f9e2a3, #e3bc51);
      margin: 5px 5px 5px 5px;
     border: 2px dotted rgb(113, 68, 9);
     display: inline-block;
-    transition: all 2s;
  }
 
- .tituloSecundario:hover {
-   height: 100px;
-   width: 120px;
-}
 
  .redesSociales1 {
 background-image: url(../img.jpg/ig.png);
