@@ -1,163 +1,137 @@
 body {
-   background: url(../img.jpg/sauna.jpg);
-   background-size: 100%;
-    text-align: center;
-}
+  background: url(../img.jpg/sauna.jpg);
+  background-size: 100%;
+  text-align: center; }
 
 .tituloPrincipal {
-    margin: 5px 5px 5px 5px;
-    border: 2px solid black;
-    padding: 10px;
-    display: inline-block;
-    background-image: radial-gradient(#f9e2a3, #e3bc51);    
-}
-
+  margin: 5px 5px 5px 5px;
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  background-image: radial-gradient(#f9e2a3, #e3bc51); }
 
 .tituloSecundario {
-   background-image: radial-gradient(#f9e2a3, #e3bc51);
-     margin: 5px 5px 5px 5px;
-    border: 2px dotted rgb(113, 68, 9);
-    display: inline-block;
- }
+  background-image: radial-gradient(#f9e2a3, #e3bc51);
+  margin: 5px 5px 5px 5px;
+  border: 2px dotted #714409;
+  display: inline-block; }
 
+.redesSociales1 {
+  background-image: url(../img.jpg/ig.png);
+  background-size: cover;
+  border: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 25%;
+  margin: 0 auto; }
 
- .redesSociales1 {
-background-image: url(../img.jpg/ig.png);
-background-size: cover;
- border: 2px;
- display: flex;
- flex-flow: row wrap;
- justify-content: center;
- width: 25%;
- margin: 0 auto;
- }
+.menuHotel {
+  background-image: radial-gradient(#ddd3bc, #cdac53);
+  display: inline-flex;
+  font-size: 20px; }
 
-     .menuHotel {
-      background-image: radial-gradient(#ddd3bc, #cdac53);
-     display: inline-flex;
-      font-size: 20px;
-     }
+.habitaciones {
+  background-image: radial-gradient(#dac39e, #e2b266);
+  border: 1px solid black;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 40%;
+  margin: 0 auto; }
 
-     .habitaciones {
-     background-image: radial-gradient(rgb(218, 195, 158), rgb(226, 178, 102));
-     border: 1px solid black;
-    font-size: 16px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    width: 40%;
-    margin: 0 auto;
-     }
+.habitaciones2 {
+  border: 1px solid black;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: flex-start;
+  width: 40%;
+  margin: 0 auto; }
 
-     .habitaciones2 {
-      border: 1px solid black;
-     font-size: 18px;
-     display: inline-block;
-     justify-content: flex-start;
-     width: 40%;
-     margin: 0 auto;
-     }
+.tipoHabitaciones {
+  background-image: radial-gradient(#d2b68d, #ca903f);
+  background-size: cover;
+  font-size: 24px;
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto; }
 
-     .tipoHabitaciones {
-        background-image: radial-gradient(rgb(210, 182, 141), rgb(202, 144, 63));
-        background-size: cover;
-        font-size: 24px;
-        border: 2px solid black;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        width: 40%;
-        margin: 0 auto;
-     }
-     
-     /*wpp*/
+/*wpp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
 
-     .float{
-      position:fixed;
-      width:60px;
-      height:60px;
-      bottom:40px;
-      right:40px;
-      background-color:#25d366;
-      color:#FFF;
-      border-radius:50px;
-      text-align:center;
-     font-size:30px;
-      box-shadow: 2px 2px 3px #999;
-     z-index:100;
-   }
-   .float:hover {
-      text-decoration: none;
-      color: #25d366;
-     background-color:#fff;
-   }
-   
-   .my-float{
-      margin-top:16px;
-   }
-  
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
 .videoTour {
-   background-color: rgb(237, 190, 120);
-   border: 2px solid black;
-}
+  background-color: #edbe78;
+  border: 2px solid black; }
 
 .infoExtra {
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-   width: 40%;
-   margin: 0 auto;
-   color: rgb(244, 223, 191);
-}
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+  color: #f4dfbf; }
 
 .subTitulo {
-   text-align: center;
-   background-image: linear-gradient(to top, rgb(245, 212, 159),  rgb(247, 174, 58));
-   border: black solid 2px;
-   display:inline-block
-   
-}
+  text-align: center;
+  background-image: linear-gradient(to top, #f5d49f, #f7ae3a);
+  border: black solid 2px;
+  display: inline-block; }
 
 .agendas {
-   background-image: radial-gradient(#f9e2a3, #e3bc51);
-   border: rgb(106, 79, 5) solid 5px;
-  display: inline-block;
-}
-
+  background-image: radial-gradient(#f9e2a3, #e3bc51);
+  border: #6a4f05 solid 5px;
+  display: inline-block; }
 
 /*Para el desafio*/
-
 header {
-   background-image: url(../img.jpg/puertaHotel.jpg);
-}
+  background-image: url(../img.jpg/puertaHotel.jpg); }
 
 nav {
-   grid-area: nav;
-}
+  grid-area: nav; }
 
 main {
-   grid-area: main;
-   height: 60px;
-   text-align: center;
-}
+  grid-area: main;
+  height: 60px;
+  text-align: center; }
 
 .servicioHotel {
-   font-size: 25px;
-   border: 3px;
-   background-image: radial-gradient(#f9e2a3, #e3bc51);
-   text-align: center;
-   height: 200px;
-}
+  font-size: 25px;
+  border: 3px;
+  background-image: radial-gradient(#f9e2a3, #e3bc51);
+  text-align: center;
+  height: 200px; }
 
 footer {
-      background-image: linear-gradient(to top,   rgb(247, 174, 58), rgb(245, 212, 159));
-    border: 1px solid black;
-    margin: 0 auto;
-   color: black;
-   height: 90px;
-   justify-content: center;
-}
+  background-image: linear-gradient(to top, #f7ae3a, #f5d49f);
+  border: 1px solid black;
+  margin: 0 auto;
+  color: black;
+  height: 90px;
+  justify-content: center; }
 
 .piePagina {
-   background-image: linear-gradient(to top,  rgb(245, 212, 159), rgb(246, 189, 97));
-}
+  background-image: linear-gradient(to top, #f5d49f, #f6bd61); }
