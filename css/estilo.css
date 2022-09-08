@@ -2,63 +2,89 @@ body {
   background: url(../img.jpg/sauna.jpg);
   background-size: 100%;
   text-align: center; }
+  body h1 {
+    margin: 5px 5px 5px 5px;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    background-image: radial-gradient(#f9e2a3, #e3bc51); }
+  body h2 {
+    background-image: radial-gradient(#f9e2a3, #e3bc51);
+    margin: 5px 5px 5px 5px;
+    border: 2px dotted #714409;
+    display: inline-block; }
+  body h4 {
+    background-color: #edbe78;
+    border: 2px solid black; }
+  body h5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    color: #f4dfbf; }
+  body li {
+    background-image: radial-gradient(#ddd3bc, #cdac53);
+    display: inline-flex;
+    font-size: 20px; }
+  body p {
+    font-size: 25px;
+    border: 3px;
+    background-image: radial-gradient(#f9e2a3, #e3bc51);
+    text-align: center;
+    height: 200px; }
+  body .habitaciones {
+    background-image: radial-gradient(#dac39e, #e2b266);
+    border: 1px solid black;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 40%;
+    margin: 0 auto; }
+  body .habitaciones2 {
+    border: 1px solid black;
+    font-size: 18px;
+    display: inline-block;
+    justify-content: flex-start;
+    width: 40%;
+    margin: 0 auto; }
+  body .tipoHabitaciones {
+    background-image: radial-gradient(#d2b68d, #ca903f);
+    background-size: cover;
+    font-size: 24px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto; }
+  body form {
+    background-image: radial-gradient(#f9e2a3, #e3bc51);
+    border: #6a4f05 solid 5px;
+    display: inline-block; }
+  body main {
+    height: 60px;
+    text-align: center; }
 
-.tituloPrincipal {
-  margin: 5px 5px 5px 5px;
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  background-image: radial-gradient(#f9e2a3, #e3bc51); }
-
-.tituloSecundario {
-  background-image: radial-gradient(#f9e2a3, #e3bc51);
-  margin: 5px 5px 5px 5px;
-  border: 2px dotted #714409;
-  display: inline-block; }
-
-.redesSociales1 {
-  background-image: url(../img.jpg/ig.png);
-  background-size: cover;
-  border: 2px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 25%;
-  margin: 0 auto; }
-
-.menuHotel {
-  background-image: radial-gradient(#ddd3bc, #cdac53);
-  display: inline-flex;
-  font-size: 20px; }
-
-.habitaciones {
-  background-image: radial-gradient(#dac39e, #e2b266);
+footer {
+  background-image: linear-gradient(to top, #f7ae3a, #f5d49f);
   border: 1px solid black;
-  font-size: 16px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  width: 40%;
-  margin: 0 auto; }
-
-.habitaciones2 {
-  border: 1px solid black;
-  font-size: 18px;
-  display: inline-block;
-  justify-content: flex-start;
-  width: 40%;
-  margin: 0 auto; }
-
-.tipoHabitaciones {
-  background-image: radial-gradient(#d2b68d, #ca903f);
-  background-size: cover;
-  font-size: 24px;
-  border: 2px solid black;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 40%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: black;
+  height: 90px;
+  justify-content: center; }
+  footer .piePagina {
+    background-image: linear-gradient(to top, #f5d49f, #f6bd61); }
+  footer .redesSociales1 {
+    background-image: url(../img.jpg/ig.png);
+    background-size: cover;
+    border: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto; }
 
 /*wpp*/
 .float {
@@ -82,56 +108,3 @@ body {
 
 .my-float {
   margin-top: 16px; }
-
-.videoTour {
-  background-color: #edbe78;
-  border: 2px solid black; }
-
-.infoExtra {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 40%;
-  margin: 0 auto;
-  color: #f4dfbf; }
-
-.subTitulo {
-  text-align: center;
-  background-image: linear-gradient(to top, #f5d49f, #f7ae3a);
-  border: black solid 2px;
-  display: inline-block; }
-
-.agendas {
-  background-image: radial-gradient(#f9e2a3, #e3bc51);
-  border: #6a4f05 solid 5px;
-  display: inline-block; }
-
-/*Para el desafio*/
-header {
-  background-image: url(../img.jpg/puertaHotel.jpg); }
-
-nav {
-  grid-area: nav; }
-
-main {
-  grid-area: main;
-  height: 60px;
-  text-align: center; }
-
-.servicioHotel {
-  font-size: 25px;
-  border: 3px;
-  background-image: radial-gradient(#f9e2a3, #e3bc51);
-  text-align: center;
-  height: 200px; }
-
-footer {
-  background-image: linear-gradient(to top, #f7ae3a, #f5d49f);
-  border: 1px solid black;
-  margin: 0 auto;
-  color: black;
-  height: 90px;
-  justify-content: center; }
-
-.piePagina {
-  background-image: linear-gradient(to top, #f5d49f, #f6bd61); }
